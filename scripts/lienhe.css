@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+#tieude {
+  display: flex;
+  align-items: center; 
+  border: 1px solid #000;
+  background-color:#999;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../MomoSignature-Regular.ttf);
+}
+#tieude p {
+    font-size: 27px;
+    text-align: left;
+    font-family: myFirstFont;
+	color:#0F6;
+	font-weight:bold;
+	position:relative;
+	left: 25px;
+}
+#tieude a:hover {
+  color: #0F6;
+}
+#tieude a{
+	position:relative;
+	left:500px;
+    font-size: 24px;
+    margin: 0 15px;
+    text-decoration: none;
+	color:#FFF;
+	margin:0 40px;
+}
+#footer{
+  	background:#111;
+ 	 color:white;
+  	display:flex;
+ 	 text-align:center;
+ 	 padding:30px;
+  	font-weight: bold;
+}
+
+.footer1{
+  width:30%;
+}
+
+.footer1 h3{
+ 	 color:#0F6;
+	 margin-bottom:10px;
+}
+
+.footer1 p a{
+  	margin:5px 0;
+	text-decoration:none;
+	color:#FFF;
+}
+
+#footer2{
+  background:#000;
+  color:#aaa;
+  text-align:center;
+  padding:10px;
+  font-weight: bold;
+  font-size:14px;
+}
+#nd {
+	font-size:24px;
+	text-align:center;
+	font-weight:bold;	
+}
+#hotro { margin-left:0px; font-weight:bold; font-size:16px;}
+button { margin-left:0px; margin-top:10px;}
+#ndht { width:500px; height:140px;}
+#ten {width:500px;}
+#email {width:500px;}
+#sdt {width:500px;}
+#nd {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(../images/mau-background-the-thao_030632451.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+	height:500px;
+	position:relative;
+	bottom:10px;
+}
